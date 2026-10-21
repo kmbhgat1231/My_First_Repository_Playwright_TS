@@ -40,4 +40,13 @@ static async clickElement(locator:Locator){
     }
 }
 
+static async selectDropDownOption(locator:Locator, optionLabel:string){
+    if(await this.isReady(locator)){
+        await locator.selectOption( optionLabel);
+    }
+    else{
+        console.log("DropDown is not Visible or Enabled");
+    }
+}
+
 }
