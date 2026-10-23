@@ -49,4 +49,11 @@ static async selectDropDownOption(locator:Locator, optionLabel:string){
     }
 }
 
+//generic method to create unique .png file for screenshot
+static generateRandomText(prefix='test'){
+    const randomPart=Math.random().toString(36).substring(2 , 8);
+    console.log(Math.random().toString(36));//print text just for reference
+    return `${prefix}${Date.now()}${randomPart}`;
+}
+
 }
