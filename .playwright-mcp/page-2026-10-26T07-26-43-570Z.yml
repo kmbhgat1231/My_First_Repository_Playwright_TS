@@ -1,0 +1,109 @@
+- generic [ref=f17e3]:
+  - generic:
+    - complementary [ref=f17e4]:
+      - navigation "Sidepanel" [ref=f17e5]:
+        - generic [ref=f17e6]:
+          - link [ref=f17e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=f17e9]
+          - text: 
+        - generic [ref=f17e10]:
+          - generic [ref=f17e11]:
+            - generic [ref=f17e12]:
+              - textbox "Search" [ref=f17e15]
+              - button "" [ref=f17e16] [cursor=pointer]
+            - separator [ref=f17e18]
+          - list [ref=f17e19]:
+            - listitem [ref=f17e20]:
+              - link "Admin" [ref=f17e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+            - listitem [ref=f17e25]:
+              - link "PIM" [ref=f17e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+            - listitem [ref=f17e41]:
+              - link "Leave" [ref=f17e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+            - listitem [ref=f17e46]:
+              - link "Time" [ref=f17e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+            - listitem [ref=f17e54]:
+              - link "Recruitment" [ref=f17e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+            - listitem [ref=f17e62]:
+              - link "My Info" [ref=f17e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+            - listitem [ref=f17e70]:
+              - link "Performance" [ref=f17e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+            - listitem [ref=f17e80]:
+              - link "Dashboard" [ref=f17e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+            - listitem [ref=f17e85]:
+              - link "Directory" [ref=f17e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+            - listitem [ref=f17e90]:
+              - link "Maintenance" [ref=f17e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+            - listitem [ref=f17e96]:
+              - link "Claim" [ref=f17e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+            - listitem [ref=f17e105]:
+              - link "Buzz" [ref=f17e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+    - banner [ref=f17e110]:
+      - generic [ref=f17e111]:
+        - generic [ref=f17e112]:
+          - text: 
+          - heading "PIM" [level=6] [ref=f17e114]
+        - link [ref=f17e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=f17e117] [cursor=pointer]
+        - list [ref=f17e123]:
+          - listitem [ref=f17e124]:
+            - generic [ref=f17e125] [cursor=pointer]:
+              - img "profile picture" [ref=f17e126]
+              - paragraph [ref=f17e127]: QA Edit check Islrzf DoeBhai
+              - generic [ref=f17e128]: 
+      - navigation "Topbar Menu" [ref=f17e130]:
+        - list [ref=f17e131]:
+          - listitem [ref=f17e132] [cursor=pointer]:
+            - generic [ref=f17e133]:
+              - text: Configuration
+              - generic [ref=f17e134]: 
+          - listitem [ref=f17e135] [cursor=pointer]:
+            - link "Employee List" [ref=f17e136]:
+              - /url: "#"
+          - listitem [ref=f17e137] [cursor=pointer]:
+            - link "Add Employee" [ref=f17e138]:
+              - /url: "#"
+          - listitem [ref=f17e139] [cursor=pointer]:
+            - link "Reports" [ref=f17e140]:
+              - /url: "#"
+          - button "" [ref=f17e142] [cursor=pointer]
+  - generic [ref=f17e144]:
+    - generic [ref=f17e146]:
+      - generic [ref=f17e147]:
+        - generic [ref=f17e148]:
+          - heading "Employee Reports" [level=5] [ref=f17e150]
+          - button "" [ref=f17e153] [cursor=pointer]
+        - separator [ref=f17e155]
+        - generic [ref=f17e157]:
+          - generic [ref=f17e161]:
+            - generic [ref=f17e162]: Report Name
+            - textbox "Type for hints..." [ref=f17e167]
+          - separator [ref=f17e168]
+          - generic [ref=f17e169]:
+            - button "Reset" [ref=f17e170] [cursor=pointer]
+            - button "Search" [ref=f17e171] [cursor=pointer]
+      - generic [ref=f17e172]:
+        - button " Add" [ref=f17e174] [cursor=pointer]:
+          - generic [ref=f17e175]: 
+          - text: Add
+        - table [ref=f17e177]
+    - generic [ref=f17e182]:
+      - paragraph [ref=f17e183]: OrangeHRM OS 5.9
+      - paragraph [ref=f17e184]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=f17e185] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.

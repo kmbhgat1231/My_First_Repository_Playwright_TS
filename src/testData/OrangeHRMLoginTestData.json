@@ -1,0 +1,16 @@
+{
+  "validUser": {
+    "userName": "Admin",
+    "password": "admin123"
+  },
+  "missingUsername": {
+    "password": "admin123"
+  },
+  "missingPassword": {
+    "userName": "Admin"
+  },
+  "invalidUser": {
+    "userName": "kshor",
+    "password": "admin"
+  }
+}

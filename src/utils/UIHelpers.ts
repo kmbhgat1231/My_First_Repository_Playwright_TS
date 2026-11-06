@@ -21,7 +21,7 @@ static async verifyHeading(locator: Locator ,expectedText: string){
     }
 }
 
-static async fillTextBox(locator:Locator , text:string){
+     static async fillTextBox(locator:Locator , text:string){
     if(await this.isReady(locator)){
         await locator.clear();
         await locator.fill(text);
